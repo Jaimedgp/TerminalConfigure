@@ -44,7 +44,7 @@ autocmd BufEnter *.py source $HOME/.vim/syntax/python.vim
 autocmd BufEnter *.sql colorscheme quantum
 autocmd BufEnter *.vim colorscheme crayon
 autocmd BufEnter *.vimrc colorscheme crayon
-autocmd BufEnter *.cpp colorscheme neodark
+autocmd BufEnter *.cpp source $HOME/.vim/syntax/cpp.vim 
 autocmd BufEnter *.md colorscheme github
 "autocmd BufEnter *.c colorscheme Tomorrow-Night
 "autocmd Filetype gitcommit,mail setlocal spell textwidth=76 colorcolumn=77
