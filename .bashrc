@@ -116,16 +116,35 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias root='root -l'
-alias mysql='mysql --silent -u root -p'
-alias dropbox='cd /home/jaime/Dropbox/'
-alias verbtex='cd /home/jaime/Dropbox/VerbTeX/'
-alias desktop.local='ssh -XY jaimediez@desktop16.local'
-alias desktop.local.net='ssh -XY jaimediez@diezgpdesktop.ddns.net'
+# added by Anaconda2 4.4.0 installer
+export PATH="/home/jaimedgp/anaconda2/bin:$PATH"
 
-source /home/jaime/Downloads/root/bin/thisroot.sh
+alias mysql="mysql --silent -u root -p"
 
-# added by Anaconda2 4.2.0 installer
-export PATH="/home/jaime/anaconda2/bin:$PATH"
+alias workstation="ssh -XY jaimediez@2.154.25.247"
 
-alias EDP='/home/jaime/Desktop/Dontpanic.sh'
+CompileC() {
+    gcc `pkg-config --cflags gtk+-3.0` -o "$1" "$1".c `pkg-config --libs gtk+-3.0`
+}
+
+Compare() {
+
+    cd "$1"
+    if ! [ -d ./w.txt ]; then
+        git status >> w.txt
+
+        
+        vim w.txt
+
+        python ~/traked.py 
+
+        vim w.txt
+        
+        rm w.txt
+    fi
+
+    cd
+}
+
+# always execute tmux
+[[ $- != *i*  ]] && return [[ $TERM != screen*  ]] && exec tmux -2
