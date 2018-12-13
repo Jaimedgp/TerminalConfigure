@@ -4,7 +4,6 @@
 
 >*[Tarjeta Wifi](https://www.amazon.com/Intel-Wireless-AC-802-11ac-Wi-Fi-Bluetooth/dp/B00STV5UKW/ref=as_li_ss_tl?ie=UTF8&qid=1503392120&sr=8-1&keywords=Intel+Dual+Band+Wireless-AC+7265&linkCode=sl1&tag=designireland-20&linkId=bf7fb25043df78bce54fb97fe2d8d1cd)
 
-
 >* Movil
 	* Cristal templado para One plus 6
 	* Cables tipo C
@@ -14,7 +13,7 @@
 >* Triathlon
 	* Ropa de triathlon (algo con lo que poder nadar, ir en bicicleta y correr)
 	* Reloj deportivo que tenga para carrera, bicicleta y sobretodo PISCINA 
-	
+
 >* Bicicleta
 	* Talon de playeras
 	* Multi-tool
