@@ -16,6 +16,8 @@
 
 >* [Cargador inalambrico](https://es.aliexpress.com/store/product/CinkeyPro-Coth-Wireless-Charger-Pad-with-LED-Light-5W-Charging-for-iPhone-8-X-Samsung-XiaoMi/1629958_32838617303.html?spm=a219c.search0104.3.105.409a42e095Xqbp&ws_ab_test=searchweb0_0,searchweb201602_2_10065_10068_10547_319_10891_317_10548_10696_453_10084_454_10083_10618_10307_10820_10301_10821_538_10303_537_536_10059_10884_10887_100031_321_322_10103_5727015_5727515-5727015,searchweb201603_51,ppcSwitch_0&algo_expid=abdb306e-06a1-4928-9e23-82dc5bf357e0-14&algo_pvid=abdb306e-06a1-4928-9e23-82dc5bf357e0)
 
+* Zapatillas para correr (_playeras de Runing_)
+
 * Triathlon
 
 >* Ropa de triathlon (algo con lo que poder nadar, ir en bicicleta y correr)
