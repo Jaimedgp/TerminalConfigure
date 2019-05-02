@@ -10,8 +10,14 @@
 
 * Zapatillas para correr (_playeras de Runing_)
 
+* Bolsa pequeña para la piscina (tipo zapatillero)
 
+* [Mochila de clase mas pequeña](https://es.aliexpress.com/store/product/TINYAT-Men-Laptop-Backpack-For-15-USB-Charger-Backpacks-Computer-Anti-theft-Bag-pack-Unisex-School/1847863_32954413579.html?spm=a219c.search0103.3.245.9d4f38cdC2E4n0&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10547_319_10891_317_10548_10696_10084_453_454_10083_10618_10307_10820_10821_10301_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7e7b3e96-79fc-4bd4-a34d-a1d667dcd5c8-30&algo_pvid=7e7b3e96-79fc-4bd4-a34d-a1d667dcd5c8)
 
 * Bicicleta
+
+>* [Ruedas de Aliexpress](https://es.aliexpress.com/item/Carbono-CENTRO-DE-LUZ-ultra-700C-40mm-bicicleta-de-carretera-de-aleaci-n-de-aluminio-llanta/32958284009.html?spm=a2g0o.cart.99999999.284.6e6e3c00ezXOGm)
+
+>* [Guantes de ciclismo](https://es.aliexpress.com/item/Tour-de-Francia-3D-GEL-Pad-Ciclismo-guantes-hombre-mujer-bicicleta-MTB-bicicleta-guantes-alta-calidad/32838815642.html?spm=a2g0o.cart.99999999.290.6e6e3c00ezXOGm)
 
 
