@@ -1,0 +1,139 @@
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[hmarginratio=1:1,top=12mm, bottom=23mm, left=20mm,columnsep=20pt]{geometry} % Document margins
+
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{float} 
+\usepackage{selinput}
+%\usepackage{hyperref}
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\usepackage[spanish]{babel}
+%\selectlanguage{spanish}
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+% adjust the page margins
+\usepackage{fancyhdr}
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\pagestyle{fancy} % All pages have headers and footers
+\SelectInputMappings{%
+	aacute={á},
+	ntilde={ñ},
+	Euro={€}
+}
+
+%\renewcommand{\footnote}{\arabic{footnote}}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Jaime}{Díez}
+\title{DoB: June 3, 1997 PoB: Santander, Spain}                               % optional, remove / comment the line if not wanted
+\address{Macias Picavea 14 8ºD}{39003 Santander}{Spain}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+34 649 004 985}                   % optional, remove / comment the line if not wanted
+%			\phone[fixed]{+34~942~219~639}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{jaime.diez.gp@gmail.com}       
+\photo[74pt][0.0pt]{3578RGB.jpg}%me.jpg}  
+% optional, remove / comment the line if not wanted
+\homepage{github.com/Jaimedgp}%\href{https://www.github.com/AlGepe}{github.com/AlGepe}}                              
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+	\makecvtitle
+
+	\section{Pre - University Studies}
+
+		\cventry{2013--2015}{Bachillerato Español}{Instituto Santa Clara}{Santander}{\textit{High School Studies}}{}  % arguments 3 to 6 can be left empty
+
+		%\begin{itemize}
+		%	\item{Final grade: 7.06/10 }%Including selectividad\footnote{National university-entry exam} }
+		%		\newline
+		%\end{itemize}
+
+		\cventry{2013--2015}{International Baccalaureate}{Instituto Santa Clara}{Santander}{\textit{High School Studies}}{Studied simultaneously with "Bachillerato" and completed in two years following High School's schedule}
+
+	\section{University Studies}
+		\cventry{2015--current}{Degree in Physics}{Universidad de Cantabria}{Santander}{}{}
+		\cventry{2016--2017}{Additional training in Computer Engineering`s subject Databases}{Universidad de Cantabria}{Santander}{}{}
+
+			
+	\section{Experience}
+
+		\subsection{Laboral}
+
+			\cventry{July--September \newline (2018)}{External Intership}{Intituto de Física de Cantábria}{Santander}{High Energy Physics and Instrumentation group}{Main developer of MULTI-DAQ, a data acquisition software for an experiment of the measure of the muon life time in C++}{}
+
+			\cventry{October 2017}{Software Developer for SIPAC}{Universidad Rey Juan Carlos}{Madrid}{Development of the software \textit{Debate Timer} for the event SIPAC (Simulación del Parlamento Catalán) organized by the ASESP (Student association of parliamentary simulations)}{}
+
+		\subsection{Sports}
+
+			\cventry{2012--2019}{Handball Referee}{7 years of handball refereeing}{\newline{}Highest Category: Top Regional Referee }{\newline{}Refereed several National-level Championships included the 2018 National escolar Championship }{}
+
+		\subsection{Vocational}
+
+			\cventry{2013--2016}{Caritas}{San Jose parish}{Managing packing and distribution of food for families in need}{}{}
+
+			\cventry{2016--current}{Member of the Physics Mentor Group}{Santander}{The Physics Mentor Group is a group founder by students and aimed to help students in their first and second year at university}{Collaborated with UC in some activities such as Open Days and Noche Europea de los Investigadores as a member of the group}{}
+		
+	\section{Languages}
+
+		\cvitemwithcomment{English}{B2 Level}{International Baccalaureate advanced English}
+		\cvitemwithcomment{French}{Basic Level}{Studied french at school 2009-2012}
+
+	\newpage
+	\section{Computer skills}
+
+		\cventry{Software Development}{Java, Python, C/C++, git}{Intermediate Level}{\newline Completed university courses in Java, including the use of BlueJ and Eclipse IDE. \newline Personal projects and laboratory data analises realized in Python, including GUI development and experience using PyQt, NumPy and Matplotlib. \newline Complete development of a data acquisition program in C++, including GUI development with Ncurses and cdk}{\newline \textbf{MatLab, Fortran, HTML, bash scripting, MySql and SQL Server} \newline Basic knowledge with experince and a university course in SQL}{}
+
+		\cventry{Operative Systems}{Linux, Mac OSX, Windows}{Intermediate-Advanced Level}{\newline Fluent usage of command line interface as well as remote work (e.g.: ssh, sshfs, ...)}{}{}
+
+		\cventry{Office Suites}{MSOffice, LibreOffice, \LaTeX}{Intermediate Level}{\newline Experience using all suites for personal work and throughout the studies mainly in \LaTeX}{}{}
+
+		\cventry{Text Editors}{Vim, Sublime Text}{Intermediate Level}{\newline Great experience using \textit{Sublime Text 3} as text editor for software development and text processing}{\newline Vim as main editor including IDE-like plugins}{}
+
+	\section{Formative assessment}
+
+		\cventry{November 16--17, 2018}{HACK2PROGRESS IV edition}{CIC Consulting Informático}{\newline Participate with the group TheCloudBunnies in the hackathon with the motto La Energía de las Nubes}{Developing an interactive web page that allows to measure the cost of the damages produced by electrical storms}{}
+		\cventry{March 19, 2015}{Particle Physics Master Classes}{organized by Aula de la Ciencia, Instituto de Física de Cantabria and Universidad de Cantabria, and coordinate by International Particle Physics Outreseach Group}{\newline Lectures from active scientists give insight in topics and methods of basic research at the fundaments of matter and forces}{}{}
+		\cventry{January 16, 2015}{local phase of the LI Spanish Mathematical Olympiad}{Universidad de Cantabria}{}{}{}
+		\cventry{January 17, 2014}{local phase of the L Spanish Mathematical Olympiad}{Universidad de Cantabria}{}{}{}
+		\cventry{October 9, 2014}{IV Prize Cantabria of Juvenile essay}{Sociedad Cántabra de Filosofía}{\newline La Energía Nuclear, essay on the benefits and risks of nuclear energy}{}{}
+		\cventry{October 28--29, 2013}{Astronomy Course}{Observatorio Astronómico de Cantabria}{}{}{}
+
+
+	%\center{\huge Appendix with links to relevant information}
+	%\vspace{2cm}
+
+	\section{References} % and Publications}
+		%\subsection{Academic}
+
+		%	\cvlistitem{\href{https://github.com/Jaimedgp/TheCloudBunnies}{The Cloud Bunnies repository of the proyect for HACK2PROGRESS} (https://github.com/Jaimedgp/TheCloudBunnies)}
+		%	\cvlistitem{\href{https://www.linkedin.com/in/jaimedgp}{Last year at university}
+		%		\begin{itemize}
+		%			\item Personal repository with all the scripts developed during the last year at the university, including several simulations for different subjects  \newline(https://www.linkedin.com/in/jaimedgp)
+		%	\end{itemize}}
+			
+		\subsection{Personal Profiles} % (fold)
+	
+			\cvlistitem{\href{https://github.com/JaimeDGP}{Personal GitHub} (https://github.com/JaimeDGP)}
+			\cvlistitem{\href{https://www.linkedin.com/in/jaimedgp}{Linkedin Profile} (https://www.linkedin.com/in/jaimedgp)}
+
+
+%\cvlistitem{}
+%\cventry{Year}{Title}{}{}{}{}
+
+\clearpage
+\end{document}
+				

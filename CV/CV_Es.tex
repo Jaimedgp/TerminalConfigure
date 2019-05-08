@@ -1,0 +1,133 @@
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage[hmarginratio=1:1,top=12mm,columnsep=20pt]{geometry} % Document margins
+
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{float} 
+\usepackage{selinput}
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\usepackage[spanish]{babel}
+%\selectlanguage{spanish}
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+% adjust the page margins
+%\usepackage[scale=0.75]{geometry}
+%\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\pagestyle{fancy} % All pages have headers and footers
+\SelectInputMappings{%
+	aacute={á},
+	ntilde={ñ},
+	Euro={€}
+}
+
+%\renewcommand{\footnote}{\arabic{footnote}}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Jaime}{Díez}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Macias Picavea 14 8ºD}{39003 Santander}{Spain}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+34 649 004 985}                   % optional, remove / comment the line if not wanted
+%			\phone[fixed]{+34~942~219~639}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{jaime.diez.gp@gmail.com}       
+\photo[74pt][0.0pt]{3578RGB.jpg}%me.jpg}  
+% optional, remove / comment the line if not wanted
+\homepage{github.com/Jaimedgp}%\href{https://www.github.com/AlGepe}{github.com/AlGepe}}                              
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Estudios Pre-Universitarios}
+\cventry{2013-2015}{Bachillerato Español}{Instituto Santa Clara}{Santander}{\textit{Estudios Postobligatorios}}{}  % arguments 3 to 6 can be left empty
+
+\begin{itemize}
+	\item{Final grade: 7.06/10 }%Including selectividad\footnote{National university-entry exam} }
+		\newline
+\end{itemize}
+
+\cventry{2013-2015}{Bachillerato Internacional}{Instituto Santa Clara}{Santander}{\textit{Estudios Postobligatorios}}{impartido de manera simultánea con el Bachillerato Español y completado en dos años siguiendo el calendario del instituto.}
+
+
+
+\section{Estudios Universitarios}
+\cventry{2015-Actualidad}{Grado en Física}{Universidad de Cantabria}{Santander}{}{}
+\cventry{2016-2017}{Formación complementaria en la asignatura de Bases de Datos del Grado en Ingeniería Informática}{Universidad de Cantabria}{Santander}{}{}
+
+	
+\section{Experiencia}
+
+\subsection{Deportes}
+\cventry{2012--2019}{Árbitro de balonmano}{7 años como árbitro de balonmano en Cantabria\newline{}}{Máxima Categoría: Árbitro de la máxima categoría regional  \newline{}}{Arbitrado varios torneos nacionales, incluyendo el campeonato Refereed several National-level Championships included the 2018 National escolar Championship }{}
+
+\subsection{Vocational}
+\cventry{2013--2016}{Caritas}{San Jose parish}{Managing packing and distribution of food for families in need.}{}{}
+
+\cventry{2016-current}{Member of the Physics Mentor Group}{Santander}{The Physics Mentor Group is a group founder by students and aimed to help students in their first and second year at university}{Collaborated with UC in some activities such as Open Days as a member of the group. }{}
+%\textit{\textbf{Achievements:}}
+%\begin{itemize}
+	%\item Became national referee in 2010
+	%\item Member of the Spanish Young referees Handball Project 2011-2012%\footnote{Project ended in 2012 after the new president of the Spanish Handball Federation was elected}
+	%\item Designated referee for the international tournament "Granollers Cup" 2010 \& 2011
+	%\item One year refereeing in Norway up to third level \textit{During the Erasmus}
+	%\item Several nominations as referee for Spanish Championships up to under 18 y.o. level
+%\end{itemize}
+
+
+%General Achievements:
+%\begin{itemize}
+	%\item Three times featured in the main page of Meneame.com\footnote{Top site of news in Spain (community based)}
+%\end{itemize}
+
+%\newpage
+
+\section{Languages}
+\cvitemwithcomment{English}{B2 Level}{International Baccalaureate advanced English}
+\cvitemwithcomment{French}{Basic Level}{Studied french at school 2009-2012}
+
+
+
+\section{Computer skills}
+\cventry{Software Development}{Java, Python, C/C++}{Intermediate Level}{Completed university course in Java. Personal projects realized in Python including GUI development}{Experience using PyQt, NumPy...and BlueJ IDE}{Knowledge of HTML, bash scripting, MySql and SQL Server.}
+
+\cventry{Operative Systems}{Linux, Mac OSX, Windows}{Intermediate-Advanced Level}{\newline{}Fluent usage of command line interface}{}{}
+
+\cventry{Office Suites}{MSOffice, LibreOffice, \LaTeX}{Intermediate Level}{Experience using all suites for personal work and throughout the studies}{}{}
+
+\cventry{Text Editors}{Vim, Sublime Text}{Intermediate Level}{Great experience using \textit{Sublime Text 3} as text editor for software development and text processing. Currently switching to Vim}{}{}
+%\cvitem{category 3}{XXX, YYY, ZZZ}
+
+
+
+\center{\huge Appendix with links to relevant information}
+\vspace{2cm}
+\section{References} % and Publications}
+\subsection{Academic} % (fold)
+\label{sub:}
+
+\cvlistitem{\href{https://github.com/JaimeDGP}{Personal GitHub} (https://github.com/JaimeDGP)}
+
+%\cvlistitem{}
+
+
+\clearpage
+\end{document}
+				
