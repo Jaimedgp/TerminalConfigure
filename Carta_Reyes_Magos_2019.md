@@ -20,7 +20,7 @@
 
 * Bicicleta
 
->* [Soporte Bicicleta] (https://www.amazon.es/Bicisupport-ART-50-Soporte-de-ciclismo/dp/B00NFLJA16/ref=pd_sbs_200_6/262-0029680-1808117?_encoding=UTF8&pd_rd_i=B00NFLJA16&pd_rd_r=ba1b6789-74ed-11e9-b319-65514b26e690&pd_rd_w=GACqn&pd_rd_wg=WTqx0&pf_rd_p=015a6fb5-f315-4cbc-9908-0dbd43620b7b&pf_rd_r=QGXEY7VGHA342T8C9FWC&psc=1&refRID=QGXEY7VGHA342T8C9FWC)
+>* [Soporte Bicicleta](https://www.amazon.es/Bicisupport-ART-50-Soporte-de-ciclismo/dp/B00NFLJA16/ref=pd_sbs_200_6/262-0029680-1808117?_encoding=UTF8&pd_rd_i=B00NFLJA16&pd_rd_r=ba1b6789-74ed-11e9-b319-65514b26e690&pd_rd_w=GACqn&pd_rd_wg=WTqx0&pf_rd_p=015a6fb5-f315-4cbc-9908-0dbd43620b7b&pf_rd_r=QGXEY7VGHA342T8C9FWC&psc=1&refRID=QGXEY7VGHA342T8C9FWC)
 >* [Ruedas de Aliexpress](https://es.aliexpress.com/item/Carbono-CENTRO-DE-LUZ-ultra-700C-40mm-bicicleta-de-carretera-de-aleaci-n-de-aluminio-llanta/32958284009.html?spm=a2g0o.cart.99999999.284.6e6e3c00ezXOGm)
 >* [Guantes de ciclismo](https://es.aliexpress.com/item/Tour-de-Francia-3D-GEL-Pad-Ciclismo-guantes-hombre-mujer-bicicleta-MTB-bicicleta-guantes-alta-calidad/32838815642.html?spm=a2g0o.cart.99999999.290.6e6e3c00ezXOGm)
 >* [Calcetines de ciclismo](https://www.specialized.com/es/es/sl-elite-summer-sock/p/154807?color=246923-154807#)
