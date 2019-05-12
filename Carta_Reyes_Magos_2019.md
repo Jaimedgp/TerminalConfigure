@@ -3,6 +3,8 @@
 
 * Gafas de Sol
 
+* Otros cascos [I10 TWS](https://es.aliexpress.com/item/Original-nuevo-manos-libres-auriculares-Mini-i10-i9s-i12-TWS-Q32-auricular-ltimo-5-0-inal/32957092419.html?spm=a2g0s.9042311.0.0.3da263c07Ih0JH) como los que tengo para cuando rompa los de ahora 
+
 * Movil
 
 >* Cristal templado para One plus 6
