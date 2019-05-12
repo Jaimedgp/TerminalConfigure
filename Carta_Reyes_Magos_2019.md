@@ -22,7 +22,7 @@
 
 >* [Ruedas de Aliexpress](https://es.aliexpress.com/item/Carbono-CENTRO-DE-LUZ-ultra-700C-40mm-bicicleta-de-carretera-de-aleaci-n-de-aluminio-llanta/32958284009.html?spm=a2g0o.cart.99999999.284.6e6e3c00ezXOGm)
 >* [Guantes de ciclismo](https://es.aliexpress.com/item/Tour-de-Francia-3D-GEL-Pad-Ciclismo-guantes-hombre-mujer-bicicleta-MTB-bicicleta-guantes-alta-calidad/32838815642.html?spm=a2g0o.cart.99999999.290.6e6e3c00ezXOGm)
->* [Calcetines de ciclismo](https://es.aliexpress.com/item/2019-nuevo-de-carretera-de-carbono-bicicleta-de-carretera-ciclismo-bicicleta-de-marcos-de-la-marca/32861247643.html?spm=a2g0o.cart.99999999.282.2e203c001d0N3V)
+>* [Calcetines de ciclismo](https://www.specialized.com/es/es/sl-elite-summer-sock/p/154807?color=246923-154807#)
 >* [Botellin como el que ya tengo](https://www.recambios-bici.es/1847837-bidon-camelbak-podium-710-ml.html?gclid=CjwKCAjw5dnmBRACEiwAmMYGOReOVw3ihvkdp3NYrzK3TwQ87-joIKRb2t0fS-37tJTgnMFh3bDBnhoC318QAvD_BwE#/undefined-capacidad-710_ml/colores-rojo)
 >* [Portabotellines como el que ya tengo](https://www.amazon.es/Elite-Custom-Race-Portabid%C3%B3n-elast%C3%B3mero/dp/B006GF0S1E/ref=sr_1_35?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=XTZJET77IJ14&keywords=soporte%2Bciclismo&qid=1557591282&s=gateway&sprefix=soporte%2Bcicl%2Caps%2C277&sr=8-35&th=1)
 >* Plantillas Specialize
