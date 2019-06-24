@@ -15,8 +15,6 @@
 * Deporte
 
 >* Zapatillas para correr (_playeras de Runing_)
->* Chandal
->* Bolsa pequeña para la piscina (tipo zapatillero)
 
 * Bicicleta
 
