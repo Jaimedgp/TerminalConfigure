@@ -115,12 +115,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-export PATH="/opt/anaconda/anaconda3/bin:$PATH"
-
-if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
-  source /usr/share/powerline/bindings/bash/powerline.sh
-fi
-source ~/.jaimedgp_bash
-
-#export PATH="/home/jaimedgp/Downloads/ARX-3.8.0/bin:$PATH"
