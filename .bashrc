@@ -56,11 +56,11 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
+#if [ "$color_prompt" = yes ]; then
+#    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#else
+#    # PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+#fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -116,35 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Anaconda2 4.4.0 installer
-export PATH="/home/jaimedgp/anaconda2/bin:$PATH"
+export PATH="/opt/anaconda/anaconda3/bin:$PATH"
 
-alias mysql="mysql --silent -u root -p"
+if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
+  source /usr/share/powerline/bindings/bash/powerline.sh
+fi
+source ~/.jaimedgp_bash
 
-alias workstation="ssh -XY jaimediez@2.154.25.247"
-
-CompileC() {
-    gcc `pkg-config --cflags gtk+-3.0` -o "$1" "$1".c `pkg-config --libs gtk+-3.0`
-}
-
-Compare() {
-
-    cd "$1"
-    if ! [ -d ./w.txt ]; then
-        git status >> w.txt
-
-        
-        vim w.txt
-
-        python ~/traked.py 
-
-        vim w.txt
-        
-        rm w.txt
-    fi
-
-    cd
-}
-
-# always execute tmux
-[[ $- != *i*  ]] && return [[ $TERM != screen*  ]] && exec tmux -2
+#export PATH="/home/jaimedgp/Downloads/ARX-3.8.0/bin:$PATH"
