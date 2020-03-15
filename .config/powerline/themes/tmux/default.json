@@ -1,0 +1,42 @@
+{
+	"segments": {
+		"right": [
+            {
+                "function": "powerline.segments.common.vcs.branch",
+                "name": "branch"
+            },
+			{
+		        "function": "powerline.segments.common.players.spotify",
+		        "name": "player",
+		        "args": {
+		        	"format": "{state_symbol} {title}"
+		        }
+			},
+			{
+				"function": "powerline.segments.common.bat.battery",
+                "name": "battery",
+				"args": {
+					"online": "⚡︎",
+					"full_heart": "♥"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%H:%M",
+					"istime": true
+				}
+			}
+		],
+        "left": [
+            {
+                "function": "powerline.segments.common.sys.cpu_load_percent",
+                "name": "CPU",
+                "args": {
+                    "interval": 10
+                }
+            }
+        ]
+    }
+}

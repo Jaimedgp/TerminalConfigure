@@ -1,0 +1,7 @@
+{
+	"groups": {
+        "time":		     		{"fg": "solarized:base02",     "bg": "mediumgreen",      "attrs": ["bold"]},
+        "jobs": 	     		{"fg": "solarized:base02",     "bg": "mediumred",        "attrs": ["bold"]},
+        "window_status":  		{"fg": "solarized:base02",     "bg": "mediumpurple",     "attrs": ["bold"]}
+	}
+}
