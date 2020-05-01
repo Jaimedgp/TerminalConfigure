@@ -20,6 +20,15 @@
 					"full_heart": "♥"
 				}
 			},
+            {
+                "function": "powerline.segments.common.sys.cpu_load_percent",
+                "name": "CPU",
+                "args": {
+                    "interval": 10
+                }
+            }
+		],
+        "left": [
 			{
 				"function": "powerline.segments.common.time.date",
 				"name": "time",
@@ -27,15 +36,11 @@
 					"format": "%H:%M",
 					"istime": true
 				}
-			}
-		],
-        "left": [
+			},
             {
-                "function": "powerline.segments.common.sys.cpu_load_percent",
-                "name": "CPU",
-                "args": {
-                    "interval": 10
-                }
+                "function": "powerline.segments.common.env.virtualenv",
+                "name": "virtualenv",
+                "priority": 10
             }
         ]
     }
