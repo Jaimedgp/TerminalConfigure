@@ -1,9 +1,18 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""                                                 """"" 
-"""""       NEOVIM FILE CONFIGURATION                 """""
-"""""                                                 """"" 
-"""""                     Jaimedgp    May 1, 2020     """"" 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""    ___    _                                 _
+""""""   |   \  | |  _____   _____   __        __ (_)  ___   ___
+""""""   | |\ \ | | |  __|  /  _  \  \ \      / / | | |   \_/   |
+""""""   | | \ \| | | |_   /  / \  \  \ \    / /  | | | |\   /| |
+""""""   | |  \   | |  _| |  |   |  |  \ \  / /   | | | | \_/ | |
+""""""   | |   \  | | |__  \  \_/  /    \ \/ /    | | | |     | |
+""""""   |_|    \_| |____|  \_____/      \__/     |_| |_|     |_|
+""""""
+""""""
+""""""                                          Jaimedgp    May 1, 2020
+""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 """""""""""""""""""""""""""""""
@@ -21,31 +30,42 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 "" APPERANCE PLUGINS
-Plug 'vim-airline/vim-airline'"" Status Bar 
-Plug 'vim-airline/vim-airline-themes'"" Status Bar Themes
+Plug 'vim-airline/vim-airline'                                                      "" Status Bar
+Plug 'vim-airline/vim-airline-themes'                                               "" Status Bar Themes
 
-Plug 'flazz/vim-colorschemes'"" Every colorscheme I'll need ever
+Plug 'flazz/vim-colorschemes'                                                       "" Every colorscheme I'll need ever
 
 "" OTHER PLUGINS
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }           "" Show folders as tree
-Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeToggle' }  "" Show folders as tree
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeTabsToggle' }                           "" Show folders as tree
+Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle'}                       "" Show folders as tree
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': 'NERDTreeTabsToggle'}       "" NerdTree highlight
+Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeTabsToggle'}                        "" Show NerdTree icons
+Plug 'Xuyuanp/nerdtree-git-plugin'                                                  "" Git in NerdTree
 
-Plug 'irrationalistic/vim-tasks', {'for': 'todo'}               "" Tasks plugin 
-Plug 'vimwiki/vimwiki', {'for': 'wiki'}                         "" Wiki Editor to link projects
-Plug 'airblade/vim-gitgutter'                                   "" Show +/-/~ git diff lines
-Plug 'dhruvasagar/vim-table-mode'                               "" Make table apperance
-Plug 'terryma/vim-multiple-cursors'                             "" Multiple cursor
-Plug 'tpope/vim-surround'                                       "" Envolve exclamation (), {}, [], ...
+Plug 'irrationalistic/vim-tasks', {'for': 'todo'}                                   "" Tasks plugin
+Plug 'airblade/vim-gitgutter'                                                       "" Show +/-/~ git diff lines
+Plug 'dhruvasagar/vim-table-mode'                                                   "" Make table apperance
+Plug 'terryma/vim-multiple-cursors'                                                 "" Multiple cursor
+Plug 'tpope/vim-surround'                                                           "" Envolve exclamation (), {}, [], ...
 
-Plug 'jalvesaq/Nvim-R', {'for': 'R'}                            "" R compile
-Plug 'lervag/vimtex', {'for': 'tex'}                            "" LaTex compile
+Plug 'vimwiki/vimwiki', {'for': ['wiki','markdown']}                                "" Wiki Editor to link projects
+Plug 'junegunn/goyo.vim', {'for': ['wiki','markdown','tex','ipynb']}               "" Center all code
+
+Plug 'jalvesaq/Nvim-R', {'for': 'R'}                                                "" R compile
+Plug 'lervag/vimtex', {'for': 'tex'}                                                "" LaTex compile
 
 "" PYTHON PLUGINS
-Plug 'tmhedberg/SimpylFold', {'for': 'python'}                  "" Fold by python syntax
-Plug 'Valloric/YouCompleteMe', {'for': 'python'}                "" Python Auto-Complete
+Plug 'tmhedberg/SimpylFold', {'for': 'python'}                                      "" Fold by python syntax
+Plug 'ycm-core/YouCompleteMe', {'for': ['python', 'cpp']}                           "" Python Auto-Complete
+Plug 'vim-syntastic/syntastic', {'for': 'python'}                                   "" Check your syntax on each save
+Plug 'nvie/vim-flake8', {'for': 'python'}                                           "" PEP 8 checking
+Plug 'vim-python/python-syntax', {'for': 'python'}                                  "" Syntax highlighting
+
+Plug 'szymonmaszke/vimpyter'                                                        "" Display notebook using custom syntax
+
 
 call plug#end()
-filetype plugin indent on    " required
+filetype plugin indent on   "" required
 
 
 
@@ -53,25 +73,28 @@ filetype plugin indent on    " required
 ""  GLOBAL NVIM OPTIONS
 """""""""""""""""""""""""""""""
 
-set termguicolors       "" Activa true colors en la terminal
+set termguicolors           "" Activa true colors en la terminal
+syntax on
 
-set noshowmode          "" Don't show mode
+set noshowmode              "" Don't show mode
 set ttimeoutlen=100         "" faster timeout for escape key and others
+set fileformat=unix
 
 
 "" IDENTATION OPTIONS
-set autoindent          "" New lines inherit the indentation of previous lines
-set smartindent         "" Even better autoindent
-set expandtab           "" Convert tabs to spaces
-set shiftround          "" Round the indentation to the nearest multiple of shiftwidth
-set smarttab            "" Insert “tabstop” number of spaces when the “tab” key is pressed.
-set shiftwidth=4        "" When shifting, indent using four spaces.
-set tabstop=4           "" Indent using four spaces.
+set autoindent              "" New lines inherit the indentation of previous lines
+set smartindent             "" Even better autoindent
+set expandtab               "" Convert tabs to spaces
+set shiftround              "" Round the indentation to the nearest multiple of shiftwidth
+set smarttab                "" Insert “tabstop” number of spaces when the “tab” key is pressed.
+set shiftwidth=4            "" When shifting, indent using four spaces.
+set tabstop=4               "" Indent using four spaces.
 
 
 "" TEXT RENDERING OPTIONS
-set encoding=utf-8      "" Use an encoding that supports unicode.
+set encoding=utf-8          "" Use an encoding that supports unicode.
 set linebreak               "" Avoid wrapping a line in the middle of a word.
+set spelllang=en_gb,es      "" Set spell-checker language to EN-UK, ES-ES
 
 
 "" CODE FOLDING OPTIONS
@@ -95,7 +118,6 @@ set history=1000            "" Increase the undo limit.
 set wildignore+=.pyc,.swp   "" Ignore files matching these patterns when opening files based on a glob pattern.
 set clipboard=unnamed       "" Use system clipboard
 set splitbelow              "" Horizontal split below
-set spelllang=en_gb,es      "" Set spell-checker language to EN-UK, ES-ES
 
 
 
@@ -103,21 +125,21 @@ set spelllang=en_gb,es      "" Set spell-checker language to EN-UK, ES-ES
 ""  REMAP NVIM COMMANDS
 """""""""""""""""""""""""""""""
 
-"" FOLDING 
+"" FOLDING
 nnoremap <space> za         "" Enable folding with the spacebar
 
 
-"" SPLIT NAVIGATIONS 
-nnoremap <C-y> 3<C-y>
-nnoremap <C-e> 3<C-e>
+"" SPLIT NAVIGATIONS
+nnoremap <C-y> 5<C-y>
+nnoremap <C-e> 5<C-e>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 "" ADD BLANK LINE
-map <Enter> o<ESC>          "" Add line below and escape
-map <S-Enter> O<ESC>        "" Add line upper and escape
+"map <Enter> o<ESC>         "" Add line below and escape
+map <C-CR> o<ESC>       "" Add line upper and escape
 
 
 
@@ -127,17 +149,42 @@ map <S-Enter> O<ESC>        "" Add line upper and escape
 
 "" COLORSCHEMES
 "autocmd BufEnter *  colorscheme spring-night, crayon, quantum, quantum, molokai, monokai
-autocmd BufEnter * colorscheme quantum
-autocmd BufEnter *.sql colorscheme quantum
-autocmd BufEnter *.vim colorscheme crayon
-autocmd BufEnter *.vimrc colorscheme crayon
-autocmd BufEnter *.cpp colorscheme neodark
+autocmd BufEnter * colorscheme tender
+autocmd BufEnter *.cpp colorscheme nova
+autocmd BufEnter *.sql colorscheme solarized8_dark_low
+autocmd BufEnter *.vim colorscheme blackdust
+autocmd BufEnter *.R colorscheme crayon
+autocmd BufEnter *.ipynb colorscheme bubblegum-256-light
+autocmd BufEnter *.sh colorscheme quantum
+autocmd BufRead,BufEnter NERD_tree_* colorscheme nord
+
+autocmd BufEnter *.js colorscheme dracula
+autocmd BufEnter *.html colorscheme neodark
+autocmd BufEnter *.css colorscheme nordisk
 
 " EXTENSION SYNTAX
-autocmd BufEnter *.tex source $HOME/.vim/syntax/latex.vim 
-autocmd BufEnter *.py source $HOME/.vim/syntax/python.vim
-autocmd BufEnter *.todo source $HOME/.vim/syntax/todo.vim
-autocmd BufEnter *.md source $HOME/.vim/syntax/readme.vim
+autocmd BufEnter *.py source $HOME/.config/nvim/syntax/python.vim
+autocmd BufEnter *.todo source $HOME/.config/nvim/syntax/todo.vim
+
+autocmd BufEnter *.wiki,*.md source $HOME/.config/nvim/syntax/readme.vim
+autocmd BufEnter *.tex source $HOME/.config/nvim/syntax/latex.vim
+
+
+
+"""""""""""""""""""""""""""""""
+""  VIM CONFIGURATION
+"""""""""""""""""""""""""""""""
+
+autocmd BufWritePre * %s/\s\+$//e
+
+
+
+"""""""""""""""""""""""""""""""
+""  AIRLINE CONF
+"""""""""""""""""""""""""""""""
+
+let g:goyo_width=150
+let g:goyo_height=90
 
 
 
@@ -152,12 +199,11 @@ let g:airline_skip_empty_sections = 1
 "let g:airline_theme='murmur'
 
 let g:airline_section_a = airline#section#create(["mode"])
-let g:airline_section_b = airline#section#create_left(["%f", "filetype", ""])
-
+let g:airline_section_b = airline#section#create_left(["%f", "%M"])
 let g:airline_section_c = " "
 
 let g:airline_section_x = " "
-let g:airline_section_y = " "
+let g:airline_section_y = airline#section#create_right(["filetype"])
 let g:airline_section_z = airline#section#create_right(["%L", "%p%%", "%l:%c"])
 
 let g:airline_section_error = ""
@@ -182,8 +228,8 @@ function! s:isAtStartOfLine(mapping)
 endfunction
 
 inoreabbrev <expr> <bar><bar>
-            \ <SID>isAtStartOfLine('\|\|') ?
-            \ '<c-o>:TableModeEnable<cr><bar><space><bar><left><left>' : '<bar><bar>'
+        \ <SID>isAtStartOfLine('\|\|') ?
+    \ '<c-o>:TableModeEnable<cr><bar><space><bar><left><left>' : '<bar><bar>'
 inoreabbrev <expr> __
             \ <SID>isAtStartOfLine('__') ?
             \ '<c-o>:silent! TableModeDisable<cr>' : '__'
@@ -194,7 +240,7 @@ inoreabbrev <expr> __
 ""  NERDTREE CONFIG
 """""""""""""""""""""""""""""""
 
-"" Change NERDTree open command 
+"" Change NERDTree open command
 map <C-f> :NERDTreeTabsToggle<CR>
 "" Ignore files in NERDTree
 let NERDTreeIgnore=['\.pyc$', '\~$']
@@ -208,7 +254,7 @@ nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 ""  VIM-WIKI CONF
 """""""""""""""""""""""""""""""
 
-let g:vimwiki_list = [{'path': '~/.vim/vimwiki/',
+let g:vimwiki_list = [{'path': '~/.config/nvim/vimwiki/',
                             \ 'syntax': 'markdown', 'ext': '.md'},
                       \{'path': '~/Repos/',
                             \ 'syntax': 'markdown', 'ext': '.md'}]
@@ -246,3 +292,11 @@ endfunction
 
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
+
+
+
+"""""""""""""""""""""""""""""""
+""       VIM-TASK
+"""""""""""""""""""""""""""""""
+
+let g:TasksDateFormat='%y-%m-%d'

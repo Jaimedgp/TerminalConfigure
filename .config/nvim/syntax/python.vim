@@ -1,8 +1,7 @@
 set background=dark
+colorscheme gruvbox
 
-colorscheme blackdust
-
-let python_highlight_all=1
+let g:python_highlight_all=1
 
 set tabstop=4
 set softtabstop=4
@@ -14,5 +13,4 @@ set fileformat=unix
 
 set foldmethod=indent   
 set foldnestmax=10
-"set nofoldenable
 set foldlevel=2

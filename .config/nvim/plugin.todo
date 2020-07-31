@@ -1,0 +1,33 @@
+Plugins to Install:
+  ☐  tpope/vim-speeddating.git
+  ☐  vim-scripts/SQLComplete.vim
+
+  ☐  SirVer/ultisnips
+  ☐  honza/vim-snippets
+  ☐  itchyny/calendar.vim
+
+New Plugins:
+  ☐ fzf
+  ☐ goyo
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+  ✔  vimwiki/vimwiki @done(2020-02-20 16:15) @project(Plugins to
+  ✘  altercation/vim-colors-solarized @cancelled(2020-02-20 16:15)
+  ✔  tpope/vim-surround @done(2020-02-20 16:22) @project(Plugins to
+  ✔  Valloric/YouCompleteMe @done(2020-02-20 16:21)
+  ✔ airblade/vim-gitgutter @done(2020-02-20 16:28) @project(New
+  ✔ vim-table-mode @done(2020-02-20 16:28) @project(New Plugins)
+  ✘  scrooloose/syntastic @cancelled(2020-02-20 10:43)
+  ✘  nvie/vim-flake8 @cancelled(2020-02-20 10:44) @project(Plugins
+  ✘  kien/ctrlp.vim @cancelled(2020-02-20 16:14) @project(Plugins
+  ✘  tpope/vim-fugitive @cancelled(2020-02-20 10:47)
+  ✔  tmhedberg/SimpylFold @done(2020-02-20 10:16) @project(Plugins
+  ✘  vim-scripts/indentpython.vim @cancelled(2020-02-20 10:16)
+  ✔  scrooloose/nerdtree @done(2020-02-20 10:21) @project(Plugins
+  ✘  jistr/vim-nerdtree-tabs @cancelled(2020-02-20 10:37)
+  ✔  Lokaltog/powerline @done(2020-02-20 10:05) @project(Plugins to
+  ✔  terryma/vim-multiple-cursors @done(2020-02-20 10:41)
+  ✔  lervag/vimtex @done(2020-02-20 10:16) @project(Plugins to
+  ✔  jalvesaq/Nvim-R @done(2020-02-20 10:16) @project(Plugins to
+  ✔  irrationalistic/vim-tasks @done(2020-02-20 10:06)

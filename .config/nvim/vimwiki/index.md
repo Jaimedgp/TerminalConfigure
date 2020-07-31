@@ -1,24 +1,19 @@
-# Index Wiki
-
 # Contents
-    - [Index Wiki](#Index Wiki)
-        - [ShortCut help](#Index Wiki#ShortCut help)
-        - [Master en Ciencia de Datos](#Index Wiki#Master en Ciencia de Datos)
-            - [Tareas](#Index Wiki#Master en Ciencia de Datos#Tareas)
-        - [Repositorios de Github](#Index Wiki#Repositorios de Github)
-            - [Jaimedgp Personal webpage](#Index Wiki#Repositorios de Github#Jaimedgp Personal webpage)
-            - [Master Repository](#Index Wiki#Repositorios de Github#Master Repository)
-            - [Master Calendar](#Index Wiki#Repositorios de Github#Master Calendar)
-        - [Futuros Proyectos](#Index Wiki#Futuros Proyectos)
+    - [My Personal Wikis](#My Personal Wikis)
+    - [Futuros Proyectos](#Futuros Proyectos)
 
-## ShortCut help
-    
-    [help](help)
-    [Things to Buy](vfile:toBuy.todo)
+# My Personal Wikis
+
+    * Documentations and Shortcuts
+        > [Tmux Shortcuts](Hlp_plugs/hlp_Tmux.md) => Most common and useful shortcuts for Tmux
+        > [Vim Shortcuts](Hlp_plugs/hlp_vim.md) => Most common and useful shortcuts for NeoVim
+    * Things to buy in the future and some whims.
+        > [Things to Buy](vfile:toBuy.todo)
 
 
-## Futuros Proyectos
+# Futuros Proyectos
 
+    * [Timepp_Powerline](Timepp_Powerline)
     * [DisksBackup](Proyectos/DisksBackup)
     * [GitUpdate](Proyectos/GitUpdate)
     * [InitializeWorkstation](Proyectos/InitializeWorkstation)

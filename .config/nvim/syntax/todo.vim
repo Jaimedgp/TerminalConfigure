@@ -1,11 +1,7 @@
-colorscheme neodark
+colorscheme neon
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set textwidth=69
-set expandtab
-set autoindent
-set fileformat=unix
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 :vertical resize 70
